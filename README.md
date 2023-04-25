@@ -1,4 +1,4 @@
-# Continuous-Discrete Convolution
+# [Continuous-Discrete Convolution](https://openreview.net/forum?id=P5Z-Zl9XJ7)
 
 The structure of proteins involves 3D geometry of amino acid coordinates and 1D sequence of  peptide chains. The 3D structure exhibits irregularity because amino acids are distributed unevenly in Euclidean space and their coordinates are continuous variables. In contrast, the 1D structure is regular because amino acids are arranged uniformly in the chains and their sequential positions (orders) are discrete variables. Moreover, geometric coordinates and sequential orders are in two types of spaces and their units of length are incompatible. These inconsistencies make it challenging to capture the 3D and 1D structures while avoiding the impact of sequence and geometry modeling on each other. This paper proposes a Continuous-Discrete Convolution (CDConv) that uses irregular and regular approaches to model the geometry and sequence structures, respectively. Specifically, CDConv employs independent learnable weights for different regular sequential displacements but directly encodes geometric displacements due to their irregularity. In this way, CDConv significantly improves protein modeling by reducing the impact of geometric irregularity on sequence modeling. Extensive experiments on a range of tasks, including protein fold classification, enzyme reaction  classification, gene ontology term prediction and enzyme commission number prediction, demonstrate the effectiveness of the proposed CDConv. 
 
@@ -30,3 +30,17 @@ We provide the pre-processed datasets for training and evaluating protein repres
 
 ### License
 The code is released under MIT License.
+
+### Citation
+If you find our work useful in your research, please consider citing:
+```
+@inproceedings{fan2023cdconv,
+  title={Continuous-Discrete Convolution for Geometry-Sequence Modeling in Proteins},
+  author={Hehe Fan and Zhangyang Wang and Yi Yang and Mohan Kankanhalli},
+  booktitle={The Eleventh International Conference on Learning Representations},
+  year={2023}
+}
+```
+
+### Related Repos
+1. [IEConv](https://github.com/phermosilla/IEConv_proteins) &emsp; 2. [GearNet](https://github.com/DeepGraphLearning/GearNet) &emsp; 3. [PointConv](https://github.com/DylanWusee/pointconv_pytorch) &emsp; 3. [PSTNet](https://github.com/hehefan/Point-Spatio-Temporal-Convolution)
