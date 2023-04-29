@@ -50,8 +50,7 @@ def test(dataloader):
 def parse_args():
     import argparse
     parser = argparse.ArgumentParser(description='CDConv')
-    parser.add_argument('--data-dir', default='/home/hhfan/Research/iclr23/data/ec', type=str, metavar='N', help='data root directory')
-    parser.add_argument('--level', default='mf', type=str, metavar='N', help='mf: molecular function, bp: biological process, cc: cellular component')
+    parser.add_argument('--data-dir', default='/tmp/protein-data/ec', type=str, metavar='N', help='data root directory')
     parser.add_argument('--geometric-radius', default=4.0, type=float, metavar='N', help='initial 3D ball query radius')
     parser.add_argument('--sequential-kernel-size', default=21, type=int, metavar='N', help='1D sequential kernel size')
     parser.add_argument('--kernel-channels', nargs='+', default=[32], type=int, metavar='N', help='kernel channels')
