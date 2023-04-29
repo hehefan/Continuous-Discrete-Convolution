@@ -4,6 +4,10 @@ The structure of proteins involves 3D geometry of amino acid coordinates and 1D 
 
 CDConv is improved by integrating a few other techniques or tricks. The accuracy can be slightly higher than those numbers reported in the published ICLR23 paper on some tasks. With this work, I would like to suggest that the community unify the modeling for macro 3D (point cloud via LiDAR) and micro 3D (protein or molecule), or employing point cloud techniques to imporve protein or molecule understanding. 
 
+![](https://github.com/hehefan/Continuous-Discrete-Convolution/blob/main/imgs/1.jpg)
+![](https://github.com/hehefan/Continuous-Discrete-Convolution/blob/main/imgs/2.jpg)
+![](https://github.com/hehefan/Continuous-Discrete-Convolution/blob/main/imgs/3.jpg)
+
 ## Installation
 
 The code is tested with Ubuntu 20.04.5 LTS, CUDA v11.7, cuDNN v8.5, PyTorch 1.13.1, PyTorch Geometric (PyG), PyTorch Scatter and PyTorch Sparse. 
