@@ -11,7 +11,7 @@ The structure of proteins involves 3D geometry of amino acid coordinates and 1D 
 
 
 
-CDConv has been improved by integrating a few other techniques or tricks. The accuracy can be slightly higher than those numbers reported in the published ICLR23 paper on some tasks. With this work, I would like to suggest that the community unify the modeling for macro 3D (point cloud via LiDAR) and micro 3D (protein or molecule), or employing point cloud techniques to imporve protein or molecule understanding. 
+CDConv has been improved by integrating a few other techniques and tricks. The accuracy can be slightly higher than those numbers reported in the published ICLR23 paper on some tasks. With this work, I would like to suggest that the community unify the modeling for macro 3D (point cloud via LiDAR) and micro 3D (protein or molecule), or employing point cloud techniques to imporve protein or molecule understanding. 
 
 ## Installation
 
