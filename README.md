@@ -52,4 +52,4 @@ If you find our work useful in your research, please consider citing:
 ```
 
 ### Related Repos
-1. [IEConv](https://github.com/phermosilla/IEConv_proteins) &emsp; 2. [GearNet](https://github.com/DeepGraphLearning/GearNet) &emsp; 3. [PointConv](https://github.com/DylanWusee/pointconv_pytorch) &emsp; 4. [PSTNet](https://github.com/hehefan/Point-Spatio-Temporal-Convolution) &emsp; 5. [Awesome Protein Representation Learning](https://github.com/hehefan/Awesome-Protein-Representation-Learning)
+1. [IEConv](https://github.com/phermosilla/IEConv_proteins) &emsp; 2. [GearNet](https://github.com/DeepGraphLearning/GearNet) &emsp; 3. [PointConv](https://github.com/DylanWusee/pointconv_pytorch) &emsp; 4. [PSTNet](https://github.com/hehefan/Point-Spatio-Temporal-Convolution)
